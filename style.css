@@ -26,10 +26,11 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Lato", sans-serif;
+  color: #c60000;
 }
 
 /*--------------------------------------------------------------
-# Sections General
+# Secciones
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
@@ -42,6 +43,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  color: #c60000;
 }
 .section-title h2 {
   font-size: 32px;
@@ -55,55 +57,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 20px 0;
-  background-color: #f6fafa;
-  min-height: 40px;
-  margin-top: 80px;
-}
-.breadcrumbs h2 {
-  font-size: 24px;
-  font-weight: 300;
-  margin: 0;
-}
-@media (max-width: 992px) {
-  .breadcrumbs h2 {
-    margin: 0 0 10px 0;
-  }
-}
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 14px;
-}
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #6c757d;
-  content: "/";
-}
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-  .breadcrumbs ol {
-    display: block;
-  }
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
-}
-
-/*--------------------------------------------------------------
-# Back to top button
+boton
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
@@ -112,7 +66,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #70b9b0;
+  background: #805a3b;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -124,7 +78,7 @@ section {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #8bc6bf;
+  background: #fd974f;
 
 }
 .back-to-top.active {
@@ -194,8 +148,8 @@ section {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  color: #d2ece9;
+  font-size: 18px;
+  color: #fef2e4;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -205,7 +159,7 @@ section {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #fff;
+  color: #fef2e4;
 }
 
 
@@ -477,7 +431,7 @@ section {
   border: 1px solid #70b9b0;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #70b9b0;
+  background-color: #678380;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -657,7 +611,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Map
+# Mapa
 --------------------------------------------------------------*/
 .map {
   padding: 0;
@@ -672,9 +626,9 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #073839;
+  background: #805a3b;
   padding: 30px 0;
-  color: #fff;
+  color: #fef2e4;
   font-size: 14px;
 }
 #footer .copyright {
