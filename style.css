@@ -1,6 +1,4 @@
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+/* General*/
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -17,20 +15,14 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
+h1, h2, h3, h4, h5, h6,
 .font-primary {
   font-family: "Lato", sans-serif;
   color: #c60000;
 }
 
-/*--------------------------------------------------------------
-# Secciones
---------------------------------------------------------------*/
+/* Secciones*/
+
 section {
   padding: 60px 0;
 }
@@ -57,9 +49,8 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-boton
---------------------------------------------------------------*/
+/* Boton flecha*/
+
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -89,9 +80,8 @@ boton
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+/* Header*/
+
 #header {
   height: 100px;
   transition: all 0.5s;
@@ -114,13 +104,6 @@ boton
   letter-spacing: 1px;
 }
 
-#header .logo h1 a,
-#header .logo h1 a:hover {
-  color: #c60000;
-  text-decoration: none;
-  line-height: 0;
-}
-
 #header .logo img {
   padding: 0;
   margin: 0;
@@ -131,10 +114,9 @@ boton
   margin-top: 80px;
 }
 
-/*--------------------------------------------------------------
-# Navegacion Menu
---------------------------------------------------------------*/
-/**
+/* Menu de Navegacion*/
+
+/*
 * Desktop 
 */
 .navbar {
@@ -164,13 +146,6 @@ boton
   color: #fef2e4;
   white-space: nowrap;
   transition: 0.3s;
-}
-
-.navbar a i,
-.navbar a:focus i {
-  font-size: 12px;
-  line-height: 0;
-  margin-left: 5px;
 }
 
 .navbar a:hover,
@@ -232,13 +207,6 @@ boton
   transition: 0.3s;
 }
 
-.navbar-mobile a,
-.navbar-mobile a:focus {
-  padding: 10px 20px;
-  font-size: 15px;
-  color: #073839;
-}
-
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
@@ -254,7 +222,6 @@ boton
   display: block;
   position: absolute;
   left: 14px;
-  top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;
   z-index: 99;
@@ -287,12 +254,6 @@ boton
   color: #70b9b0;
 }
 
-.navbar .dropdown:hover>ul {
-  opacity: 1;
-  top: 100%;
-  visibility: visible;
-}
-
 .navbar .dropdown .dropdown ul {
   top: 0;
   left: calc(100% - 30px);
@@ -317,7 +278,7 @@ boton
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigacion 
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -415,13 +376,12 @@ boton
   display: block;
 }
 
-/*--------------------------------------------------------------
-# Presentacion
---------------------------------------------------------------*/
+/* Presentacion*/
+
 #presentacion {
   width: 100%;
   height: 75vh;
-  background: url("/img/index.png") top center;
+  background: url("img/index.png") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -80px;
@@ -435,10 +395,10 @@ boton
 
 #presentacion .pre-container {
   position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
+  bottom: 5px;
+  top: 5px;
+  left: 5px;
+  right: 5px;
   display: flex;
   padding-top: 80px;
   justify-content: center;
@@ -487,7 +447,6 @@ boton
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 10px;
-  height: 0;
   overflow: hidden;
 }
 
@@ -499,9 +458,8 @@ boton
   height: 100%;
 }
 
-/*--------------------------------------------------------------
-# Historia
---------------------------------------------------------------*/
+/* Historia*/
+
 .historia h3 {
   font-weight: 400;
   font-size: 26px;
@@ -524,140 +482,8 @@ boton
   line-height: 0;
 }
 
-.historia p:last-child {
-  margin-bottom: 0;
-  color: #805a3b;
-}
+/* Equipo*/
 
-/*--------------------------------------------------------------
-# Productos
---------------------------------------------------------------*/
-.portfolio {
-  padding: 60px 0;
-}
-
-.portfolio #portfolio-flters {
-  padding: 0;
-  margin: 0 0 35px 0;
-  list-style: none;
-  text-align: center;
-}
-
-.portfolio #portfolio-flters li {
-  cursor: pointer;
-  margin: 0 15px 15px 0;
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 12px;
-  line-height: 20px;
-  color: #777;
-  border-radius: 10px;
-  text-transform: uppercase;
-  background: white;
-  margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
-}
-
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
-  background: #70b9b0;
-  color: #fff;
-}
-
-.portfolio #portfolio-flters li:last-child {
-  margin-right: 0;
-}
-
-.portfolio .portfolio-wrap {
-  background: #073839;
-  overflow: hidden;
-  min-height: 200px;
-  position: relative;
-  border-radius: 4px;
-  margin: 0 0 30px 0;
-}
-
-.portfolio .portfolio-wrap img {
-  transition: all 0.3s ease-in-out;
-}
-
-.portfolio .portfolio-wrap .portfolio-info {
-  opacity: 0;
-  position: absolute;
-  transition: all 0.3s linear;
-  text-align: center;
-  top: 10%;
-  left: 0;
-  right: 0;
-}
-
-.portfolio .portfolio-wrap .portfolio-info h3 {
-  font-size: 22px;
-}
-
-.portfolio .portfolio-wrap .portfolio-info h3 a {
-  color: #fff;
-  font-weight: bold;
-}
-
-.portfolio .portfolio-wrap .portfolio-info a i {
-  color: #fff;
-  font-size: 24px;
-  transition: 0.3s;
-  margin: 4px;
-}
-
-.portfolio .portfolio-wrap .portfolio-info a i:hover {
-  color: #70b9b0;
-}
-
-.portfolio .portfolio-wrap:hover img {
-  opacity: 0.4;
-  transform: scale(1.1);
-}
-
-.portfolio .portfolio-wrap:hover .portfolio-info {
-  opacity: 1;
-  top: calc(50% - 30px);
-}
-
-/*--------------------------------------------------------------
-# Recetas
---------------------------------------------------------------*/
-.receta h3 {
-  font-weight: 400;
-  font-size: 26px;
-  color: #c60000;
-}
-
-.receta ul {
-  list-style: none;
-  padding: 0;
-}
-
-.receta ul li {
-  padding-bottom: 10px;
-}
-
-.receta ul i {
-  font-size: 22px;
-  padding-right: 4px;
-  color: #c60000;
-  line-height: 0;
-}
-
-.receta p:last-child {
-  margin-bottom: 0;
-  color: #805a3b;
-}
-
-.divisor {
-  margin-top: 100px;
-}
-
-/*--------------------------------------------------------------
-# equipo
---------------------------------------------------------------*/
 .equipo .miembro {
   text-align: center;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
@@ -708,9 +534,87 @@ boton
   margin: 0 2px;
 }
 
-/*--------------------------------------------------------------
-# Contactos
---------------------------------------------------------------*/
+/* Portfolio de Productos*/
+
+.portfolio {
+  padding: 60px 0;
+}
+
+.portfolio #portfolio-flters {
+  padding: 0;
+  margin: 0 0 35px 0;
+  list-style: none;
+  text-align: center;
+}
+
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
+  background: #70b9b0;
+  color: #fff;
+}
+
+.portfolio .portfolio-wrap {
+  background: #073839;
+  overflow: hidden;
+  min-height: 200px;
+  position: relative;
+  border-radius: 4px;
+  margin: 0 0 30px 0;
+}
+
+.portfolio .portfolio-wrap img {
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio .portfolio-wrap .portfolio-info {
+  opacity: 0;
+  position: absolute;
+  transition: all 0.3s linear;
+  text-align: center;
+  top: 10%;
+  left: 0;
+  right: 0;
+}
+
+.portfolio .portfolio-wrap .portfolio-info a i:hover {
+  color: #70b9b0;
+}
+
+.portfolio .portfolio-wrap:hover img {
+  opacity: 0.4;
+  transform: scale(1.1);
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-info {
+  opacity: 1;
+  top: calc(50% - 30px);
+}
+
+/* Recetas*/
+
+.receta ul {
+  list-style: none;
+  padding: 0;
+  font-size: large;
+}
+
+.receta ul li {
+  padding-bottom: 10px;
+}
+
+.receta ul i {
+  font-size: 22px;
+  padding-right: 4px;
+  color: #c60000;
+  line-height: 0;
+}
+
+.divisor {
+  margin-top: 100px;
+}
+
+/* Contacto*/
+
 .contacto .contacto-acerca h3 {
   font-size: 36px;
   margin: 0 0 10px 0;
@@ -790,9 +694,8 @@ boton
   }
 }
 
-/*--------------------------------------------------------------
-# Mapa
---------------------------------------------------------------*/
+/* Mapa*/
+
 .mapa {
   padding: 0;
   margin-bottom: -10px;
@@ -803,9 +706,8 @@ boton
   height: 380px;
 }
 
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+/* Footer*/
+
 #footer {
   background: #805a3b;
   padding: 30px 0;
