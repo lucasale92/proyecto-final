@@ -24,4 +24,4 @@ Lightbox y Swiper: Se emplearon las bibliotecas Lightbox y Swiper para mostrar i
 Uso y Navegación
 La página web es accesible a través de cualquier navegador web estándar y es compatible con dispositivos de diferentes tamaños, como computadoras de escritorio, tablets y dispositivos móviles. Los usuarios pueden navegar por las diferentes secciones utilizando el menú de navegación en la parte superior de la página.
 
-¡Gracias por visitar "Historia de Pastas Lau"! Esperamos que disfrutes explorando nuestra historia y productos caseros. Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros a través de la información proporcionada en la página de contacto. ¡Buen provecho!
+¡Gracias por visitar "Historia de Pastas Lau"! Esperamos que disfrutes explorando nuestra historia y productos caseros. Si tienes alguna pregunta o comentario, no dudes en ponerte en contacto con nosotros a través de la información proporcionada en la página de contacto. ¡Buen provecho!💪
